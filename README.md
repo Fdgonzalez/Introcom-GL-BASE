@@ -10,7 +10,7 @@ una vez que tengan el zip de GLAD descomprimanlo en una carpeta ./libraries/glad
 
 * Agregar su codigo al archivo main.cpp
 
-###Compilado
+### Compilado
 Para compilar primero hay que generar el makefile con CMake, parados en la carpeta raiz del proyecto (donde esta el archivo CMakeLists.txt
 ```
 cmake .
