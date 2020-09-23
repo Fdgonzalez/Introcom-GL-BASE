@@ -9,3 +9,23 @@ git submodule update
 una vez que tengan el zip de GLAD descomprimanlo en una carpeta ./libraries/glad
 
 * Agregar su codigo al archivo main.cpp
+
+###Compilado
+Para compilar primero hay que generar el makefile con CMake, parados en la carpeta raiz del proyecto (donde esta el archivo CMakeLists.txt
+```
+cmake .
+```
+Una vez generado el makefile se puede ejecutar el mismo con el comando make
+
+```
+make
+```
+
+El ejecutable va a estar en la misma carpeta que estan y va a tener el nombre del proyecto (configurado en CMakeLists.txt, por defecto 'introcom')
+
+Para ejecutar el programa
+
+```
+./introcom
+```
+
