@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/Introcom-base.dir/src/main.cpp.o -o Introcom-base  libraries/glfw/src/libglfw3.a libglad.a -ldl -lpthread -lrt -lm -ldl 

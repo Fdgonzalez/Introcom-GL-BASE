@@ -1,6 +1,6 @@
 # Project definition
 cmake_minimum_required(VERSION 3.1)
-project(introcom)
+project(Introcom-base)
 
 # Source files
 set(SRC_DIR "${CMAKE_CURRENT_SOURCE_DIR}/src")
@@ -29,3 +29,13 @@ add_library("glad" "${GLAD_DIR}/src/glad.c")
 target_include_directories("glad" PRIVATE "${GLAD_DIR}/include")
 target_include_directories(${PROJECT_NAME} PRIVATE "${GLAD_DIR}/include")
 target_link_libraries(${PROJECT_NAME} "glad" "${CMAKE_DL_LIBS}")
+
+# glm
+set(GLM_DIR "${LIB_DIR}/glm")
+add_subdirectory("${GLM_DIR}")
+target_link_libraries(${PROJECT_NAME} "glm" "${GLM_LIBRARIES}")
+target_include_directories(${PROJECT_NAME} PRIVATE "${GLM_INCLUDE_DIRS}")
+
+#stb_image
+include_directories(${LIB_DIR}/stb_image)
+link_directories(${LIB_DIR}/stb_image) 

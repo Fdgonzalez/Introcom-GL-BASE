@@ -1,0 +1,13 @@
+/home/facundo/sandbox/introcom/build/CMakeFiles/edit_cache.dir
+/home/facundo/sandbox/introcom/build/CMakeFiles/glad.dir
+/home/facundo/sandbox/introcom/build/CMakeFiles/rebuild_cache.dir
+/home/facundo/sandbox/introcom/build/CMakeFiles/Introcom-base.dir
+/home/facundo/sandbox/introcom/build/libraries/glfw/CMakeFiles/rebuild_cache.dir
+/home/facundo/sandbox/introcom/build/libraries/glfw/CMakeFiles/edit_cache.dir
+/home/facundo/sandbox/introcom/build/libraries/glfw/src/CMakeFiles/rebuild_cache.dir
+/home/facundo/sandbox/introcom/build/libraries/glfw/src/CMakeFiles/edit_cache.dir
+/home/facundo/sandbox/introcom/build/libraries/glfw/src/CMakeFiles/glfw.dir
+/home/facundo/sandbox/introcom/build/libraries/glm/CMakeFiles/rebuild_cache.dir
+/home/facundo/sandbox/introcom/build/libraries/glm/CMakeFiles/edit_cache.dir
+/home/facundo/sandbox/introcom/build/libraries/glm/glm/CMakeFiles/rebuild_cache.dir
+/home/facundo/sandbox/introcom/build/libraries/glm/glm/CMakeFiles/edit_cache.dir
